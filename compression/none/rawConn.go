@@ -20,7 +20,7 @@ type compConn struct {
 type Transport struct{}
 
 // New mocks the creation of a new compressed transport.
-func New(level int) *Transport {
+func New() *Transport {
 	return &Transport{}
 }
 
